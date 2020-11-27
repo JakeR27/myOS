@@ -14,7 +14,7 @@ print_string_pm_loop:
     mov ah, WHITE_ON_BLACK  ; Store writing style into AH
 
     cmp al, 0   ; Compare char with 0 to see if at end of string (null term)
-    je done ; jump to done if done
+    je print_string_pm_done ; jump to done if done
 
     mov [edx], ax   ; Store char abd style at current vid mem location
 
