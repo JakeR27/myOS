@@ -9,7 +9,7 @@
     
     jmp $
 
-%include "print_string.asm"
+%include "16bit_print_string.asm"
 
 ; DATA
 HELLO_MSG:
