@@ -1,4 +1,4 @@
-print:
+print_string:
     pusha ; put all registers on the stack
 
 ; keep this in mind:
